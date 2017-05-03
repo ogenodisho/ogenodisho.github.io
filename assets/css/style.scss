@@ -3,3 +3,5 @@
 ---
 
 @import "{{ site.theme }}";
+
+.headerLinks { @extend .downloads; }

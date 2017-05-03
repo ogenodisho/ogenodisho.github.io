@@ -10,7 +10,7 @@ layout: feed
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://ogenodisho.github.io/blog</id>
 	<author>
-		<name>Hank Quinlan</name>
+		<name>Ogen Odisho</name>
 		<email>ogenodishohub@gmail.com</email>
 	</author>
 
