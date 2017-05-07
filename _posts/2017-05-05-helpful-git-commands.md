@@ -2,7 +2,7 @@
 layout: post
 title: "Helpful Git Commands"
 date: 2017-05-05
-category: "Dev"
+categories: [Dev]
 tags: [git]
 comments: true
 ---
