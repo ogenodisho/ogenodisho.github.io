@@ -19,5 +19,3 @@ This command will push the deletion of `old_branch` and the creation of `new_bra
 - `--soft` - Current changes remain and are staged
 - `--mixed` - Current changes remain but are not staged
 - `--soft` - Current changes do not remain
-
----
