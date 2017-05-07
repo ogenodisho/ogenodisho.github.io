@@ -1,0 +1,41 @@
+{% assign raw_categories = "" %}
+{% for post in site.posts %}
+  {% assign t = post.category | join:'|' | append:'|' %}
+  {% assign raw_categories = raw_categories | append:t %}
+{% endfor %}
+
+{% assign raw_categories = raw_categories | split:'|' | sort %}
+{% assign categories = "" %}
+
+{% for category in raw_categories %}
+  {% if category != "" %}
+    {% if categories == "" %}
+      {% assign categories = category | split:'|' %}
+    {% endif %}
+    {% unless categories contains category %}
+      {% assign categories = categories | join:'|' | append:'|' | append:category | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+<div class="postList">
+  {% for category in categories %}
+    <h2>{{ category }}</h2>
+    <ul class="posts">
+      {% for post in site.posts %}
+        {% if post.category contains category %}
+          {% include post-entry.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  {% endfor %}
+
+  <h2>Misc</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      {% unless categories contains post.category %}
+        {% include post-entry.html %}
+      {% endunless %}
+    {% endfor %}
+  </ul>
+</div>
