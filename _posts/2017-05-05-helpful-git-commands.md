@@ -8,9 +8,13 @@ comments: true
 ---
 I've decided to keep a dump of helpful git commands I come across for reference.
 
+`git branch -m old_branch new_branch`
+
+Create a new branch that is the same as the old one.
+
 `git push origin :old_branch new_branch`
 
-This command will push the deletion of `old_branch` and the creation of `new_branch`
+Push the deletion of the old branch and the creation of the new one.
 
 ---
 
