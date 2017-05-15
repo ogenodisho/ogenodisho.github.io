@@ -5,3 +5,11 @@
 @import "{{ site.theme }}";
 
 .headerLinks { @extend .downloads; }
+
+.two-column-left {
+  float: left;
+}
+
+.two-column-right {
+  float: right;
+}
