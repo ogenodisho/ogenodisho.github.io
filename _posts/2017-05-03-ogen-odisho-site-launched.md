@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Ogen Odisho Launches Site"
+title: "Initial commit. I mean blog post."
 date: 2017-05-03
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+I've decided to create a website to store blog posts about things I find blog-worthy.
+
+It's powered by [Github Pages](https://pages.github.com/) and [Jekyll](http://jekyllrb.com)

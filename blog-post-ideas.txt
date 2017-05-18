@@ -1,0 +1,5 @@
+Java stuff - optionals instead of null. Too many switch statements etc. Visitor design pattern
+Python stuff - zip commands - commands from top level py.
+Ant - running stuff in parallel
+Scrum - stand up timer - estimation.
+postman or property based testing
