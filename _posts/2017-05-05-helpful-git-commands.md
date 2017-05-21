@@ -22,3 +22,17 @@ git <...> --no-verify
 
   Bypasses any git hooks
 ```
+
+```
+git -xfd
+
+  Removes all files ignored by Git from your working tree. Useful for rebuilding everything from scratch but keeping manually created files.
+```
+
+```
+git -Xfd
+
+  Removes all untracked files from your working tree.
+```
+
+The difference between the two above commands is that it is possible for a file/directory to be untracked but not ignored.
