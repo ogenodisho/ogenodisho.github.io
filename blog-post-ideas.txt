@@ -22,3 +22,5 @@ PECS
 
 
 List<? extends Dog> vs List<? super Dog>
+
+Java8 Functional interfaces

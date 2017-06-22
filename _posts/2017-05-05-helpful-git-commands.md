@@ -36,3 +36,9 @@ git -Xfd
 ```
 
 The difference between the two above commands is that it is possible for a file/directory to be untracked but not ignored.
+
+```
+git check-ignore --verbose <file>
+
+  Finds which .gitignore is causing your file to be ignored
+```
