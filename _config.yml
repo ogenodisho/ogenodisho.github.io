@@ -2,7 +2,7 @@ name: Ogen Odisho
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-theme: jekyll-theme-midnight
+theme: jekyll-theme-modernist
 
 gems:
   - jekyll-sitemap
